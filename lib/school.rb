@@ -32,12 +32,11 @@ class School
   end
 
   def sort
-    @roster.map do |key, values|
-      values.collect do |array|
-        array.sort
-      end
+    sorted_grades = {}
+    @roster.each do |key, values|
+      sorted_grades[key] = values.sort
     end
-    @roster
+    sorted_grades
   end
 
 end
