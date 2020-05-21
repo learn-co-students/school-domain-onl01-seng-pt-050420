@@ -26,20 +26,13 @@ class School
   end
   
   def sort 
-    
-    new_array = []
-    @roster.each do |key, value|
-      @roster[key] = value.sort
+    @roster.each do |key, value| 
+      puts value
     end
-    @roster
   end
   
   
 end
-
-
-
-
 
 
 
