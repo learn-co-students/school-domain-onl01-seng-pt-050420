@@ -59,3 +59,4 @@ describe 'School' do
     end
   end
 end
+
