@@ -32,11 +32,14 @@
 # end 
 
 
+# Simple Solution : dry code
+
 class School
   
   attr_accessor :roster
   
- def initialize(school_name)
+
+def initialize(school_name)
     @name = school_name
     @roster = {}
   end
@@ -60,4 +63,7 @@ def sort
 end
 
 end
+
+ 
+
     
