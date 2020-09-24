@@ -10,8 +10,13 @@
 #     # this sort of means #=> a || a = b ... or #=> x || x = y
 #     # it's freak'n weird
 #     roster[level] ||= []
+#     #or if @roaster[level]
+#     #@roaster[level] << student_name
+#     #else
+#     #@roaster[level]
 #     roster[level] << student
 #   end 
+#   end
   
 #   def grade(level)
 #     roster.detect do |x, y| 
